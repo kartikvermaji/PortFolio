@@ -18,15 +18,15 @@ const Experience = () => {
     },
     {
       title: "XII",
-      location: "SCSD SV SEC-9,Rohini",
+      location: "APS Delhi Cantt,Delhi",
       tenure: "2020-2022",
-      remark: "93.1%",
+      remark: "93.2%",
     },
     {
       title: "X",
-      location: "IP Convent S S School",
+      location: "APS 2 Jabalpur, M.P.",
       tenure: "2020-2022",
-      remark: "91.8%",
+      remark: "94.8%",
     },
   ];
 

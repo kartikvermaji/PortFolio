@@ -12,7 +12,7 @@ const PortFolio = () => {
   const [work,serWork]=useState([{
     picturePath:skycol,
     title:"SKYCOL",
-    link:"#",
+    link:"https://skycol.vercel.app/",
     desc:"Social Media App"
   },])
   return (

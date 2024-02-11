@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/JatinChaudhary_InternshalaResume (1).pdf";
 import {} from "@fortawesome/free-brands-svg-icons";
 import {
   faGraduationCap,
@@ -7,7 +7,7 @@ import {
   faCircleUser,faFile
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import profilePic from "../assets/profile (2).jpg"
+import profilePic from "../assets/jatin.png"
 import { motion } from "framer-motion";
 
 const About = () => {

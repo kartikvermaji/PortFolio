@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className=" flex py-2 top-0 left-0 justify-around shadow-md fixed w-full z-10 bg-slate-50 ">
       <div>
-        <h1 className="text-xl pb-3 font-extrabold hover:text-orange-600 hover:drop-shadow-xl">Kartik</h1>
+        <h1 className="text-xl pb-3 font-extrabold hover:text-orange-600 hover:drop-shadow-xl">Jatin</h1>
       </div>
       <div className="md:flex justify-around space-x-12 hidden  ">
         <a href="#home" className="hover:border-b-2 hover:text-slate-300 hover:drop-shadow-xl ">Home</a>
