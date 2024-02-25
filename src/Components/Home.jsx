@@ -9,8 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import profilePic from "../assets/jatin.png"
-
+import profilePic from "../assets/profile (2).jpg"
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -25,25 +24,25 @@ const Home = () => {
         whileInView={{ opactity: 1, x: 0 }}
       >
         <a
-          href="https://wa.me/918816815213/?text=Hello%20there!"
+          href="https://wa.me/918447217713/?text=Hello%20there!"
           className=" hover:drop-shadow-xl text-xl md:text-3xl hover:text-slate-400  hover:shadow-xl shadow-slate-600"
         >
            <FontAwesomeIcon icon={faWhatsapp}/>
         </a>
         <a
-          href="https://github.com/Jatin69XD"
+          href="https://github.com/kartikvermaji"
           className=" hover:drop-shadow-xl text-xl md:text-3xl hover:text-slate-400  hover:shadow-xl shadow-slate-600"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
-          href="https://www.linkedin.com/in/jatin-097511212"
+          href="https://www.linkedin.com/in/kartik-verma-037238259/"
           className=" hover:drop-shadow-xl text-xl md:text-3xl hover:text-slate-400  hover:shadow-xl shadow-slate-600"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
-          href="mailto:jatin662413@gmail.com"
+          href="mailto:kartikvermaji03@gmail.com"
           className="0 hover:drop-shadow-xl text-xl md:text-3xl hover:text-slate-400  hover:shadow-xl shadow-slate-600"
         >
           <FontAwesomeIcon icon={faGoogle} />
@@ -57,7 +56,7 @@ const Home = () => {
         animate={{}}
         whileInView={{ opactity: 1, y: 0 }}
       >
-        <h1 className="text-3xl md:text-[3rem] font-extrabold hover:text-slate-500">Jatin</h1>
+        <h1 className="text-3xl md:text-[4rem] font-extrabold hover:text-slate-500">Kartik Verma</h1>
         <p className="text-2xl text-center md:mt-8">Web Developer</p>
         <p className="md:text-lg md:w-[25vw] text-center mt-2">
           I'm creative Web Developer in Delhi,and I'm Very Passionate and

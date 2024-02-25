@@ -7,14 +7,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 
 import skycol from "../assets/SKYCOL.png"
+import market from "../assets/Market.png"
 
 const PortFolio = () => {
   const [work,serWork]=useState([{
     picturePath:skycol,
     title:"SKYCOL",
-    link:"https://skycol.vercel.app/",
+    link:"https://github.com/kartikvermaji/Skycol",
     desc:"Social Media App"
-  },])
+  },{
+    picturePath:market,
+    title:"Market",
+    link:"https://github.com/kartikvermaji/Market",
+    desc:"Ecommerce App"
+  }])
   return (
     <div className='m-4 flex flex-col container mx-auto items-center'>
       <h1 className='text-2xl md:text-4xl md:m-4 font-semibold my-2 md:mt-16' >Portfolio</h1>
@@ -23,7 +29,7 @@ const PortFolio = () => {
         
         {work.map((project)=>(
           <motion.div
-          initial={{ opactity: 0.25, y: 200 }}
+          initial={{ opactity: 0, y: 100 }}
           transition={{ duration: 0.5 }}
           animate={{}}
           whileInView={{ opactity: 1, y: 0 }}

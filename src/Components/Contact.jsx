@@ -40,12 +40,13 @@ const Contact = () => {
                  className='flex md:m-3 flex-col shadow-2xl w-[35vw] md:w-[18vw] rounded-xl hover:shadow-slate-600 '>
                 <FontAwesomeIcon icon={faEnvelope} className='md:text-2xl text-lg font-semibold md:p-2'/>
                 <h1 className='md:text-xl font-semibold'>Email</h1>
-                <p className='hidden md:block'>jatin662413@gmail.com</p>
-                <a href="mailto:jatin662413@gmail.com" className='md:p-2 md:text-lg hover:space-x-4 space-x-1 flex justify-center '>
+                <p className='hidden md:block'>kartikvermaji03@gmail.com</p>
+                <a href="mailto:kartikvermaji03@gmail.com" className='md:p-2 md:text-lg hover:space-x-4 space-x-1 flex justify-center '>
                 <p>Write me</p>
                 <FontAwesomeIcon icon={faArrowRight} className=' my-1 duration-200' /></a>
                 </motion.div>
 
+             
                     <motion.div 
                      initial={{ opactity: 0.25, x: -200 }}
                      transition={{ duration: 0.5 }}
@@ -54,8 +55,8 @@ const Contact = () => {
                     className='flex md:m-3 flex-col shadow-2xl w-[35vw] md:w-[18vw] rounded-xl hover:shadow-slate-600 '>
                 <FontAwesomeIcon icon={faWhatsapp}  className='md:text-2xl text-lg font-semibold md:p-2' />
                 <h1 className='md:text-xl font-semibold'>Whatsapp</h1>
-                <p className='hidden md:block'>8816-8152-13</p>
-                <a href="https://wa.me/918816815213/?text=Hello%20there!" className='md:p-2 md:text-lg hover:space-x-4 space-x-1 flex justify-center '>
+                <p className='hidden md:block'>8447-2177-13</p>
+                <a href="https://wa.me/918447217713/?text=Hello%20there!" className='md:p-2 md:text-lg hover:space-x-4 space-x-1 flex justify-center '>
                     <p>Write me</p> <FontAwesomeIcon icon={faArrowRight}  className=' my-1 duration-200' />
                 </a>
                 
@@ -70,8 +71,8 @@ const Contact = () => {
                 className='flex md:m-3 flex-col shadow-2xl w-[35vw] md:w-[18vw] rounded-xl hover:shadow-slate-600 '>
                 <FontAwesomeIcon icon={faLinkedin} className='md:text-2xl text-lg font-semibold md:p-2' />
                 <h1 className='md:text-xl font-semibold'>LinkedIn</h1>
-                <p className='hidden md:block'>Jatin</p>
-                <a href="https://www.linkedin.com/in/jatin-097511212" className='md:p-2 md:text-lg hover:space-x-4 space-x-1 flex justify-center '>
+                <p className='hidden md:block'>Kartik Verma</p>
+                <a href="https://www.linkedin.com/in/kartik-verma-037238259/" className='md:p-2 md:text-lg hover:space-x-4 space-x-1 flex justify-center '>
                 <p>Write me</p> <FontAwesomeIcon icon={faArrowRight}  className=' my-1 duration-200' /></a>
                
                 </motion.div>

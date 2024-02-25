@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../assets/JatinChaudhary_InternshalaResume (1).pdf";
+import CV from "../assets/CV.pdf";
 import {} from "@fortawesome/free-brands-svg-icons";
 import {
   faGraduationCap,
@@ -7,7 +7,7 @@ import {
   faCircleUser,faFile
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import profilePic from "../assets/jatin.png"
+import profilePic from "../assets/profile (2).jpg"
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -20,8 +20,8 @@ const About = () => {
 
         <div className="flex justify-around mx-auto container w-[90vw] mt-4 md:mt-12">
 <motion.div
- initial={{ opactity: 0.25, x: -200 }}
- transition={{ duration: 0.5 }}
+ initial={{ opactity: 0, x: -150 }}
+ transition={{ duration: 1 }}
  animate={{}}
  whileInView={{ opactity: 1, x: 0 }}>
           <img
@@ -33,8 +33,8 @@ const About = () => {
           <div className="flex flex-col">
 
             <motion.div className="flex justify-around flex-wrap space-y-2"
-             initial={{ opactity: 0.25, y: 200 }}
-             transition={{ duration: 0.5 }}
+             initial={{ opactity: 0., y: 100 }}
+             transition={{ duration: 1 }}
              animate={{}}
              whileInView={{ opactity: 1, y: 0 }}>
 
@@ -58,8 +58,8 @@ const About = () => {
                        
           </motion.div>
 
-<motion.div initial={{ opactity: 0.25, y: 200 }}
-             transition={{ duration: 0.5 }}
+<motion.div initial={{ opactity: 0, y: 100 }}
+             transition={{ duration: 1 }}
              animate={{}}
              whileInView={{ opactity: 1, y: 0 }}>
            <div className="w-[90vw] md:w-[40vw] md:mt-12  md:text-lg">
