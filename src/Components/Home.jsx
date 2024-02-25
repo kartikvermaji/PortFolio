@@ -57,7 +57,7 @@ const Home = () => {
         animate={{}}
         whileInView={{ opactity: 1, y: 0 }}
       >
-        <h1 className="text-3xl md:text-[3rem] font-extrabold hover:text-slate-500">Jatin Chaudhary</h1>
+        <h1 className="text-3xl md:text-[3rem] font-extrabold hover:text-slate-500">Jatin</h1>
         <p className="text-2xl text-center md:mt-8">Web Developer</p>
         <p className="md:text-lg md:w-[25vw] text-center mt-2">
           I'm creative Web Developer in Delhi,and I'm Very Passionate and
