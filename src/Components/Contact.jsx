@@ -36,6 +36,7 @@ const Contact = () => {
                  transition={{ duration: 0.5 }}
                  animate={{}}
                  whileInView={{ opactity: 1, x: 0 }}
+                 viewport={{ once:true, amount: 0.5 }}
 
                  className='flex md:m-3 flex-col shadow-2xl w-[35vw] md:w-[18vw] rounded-xl hover:shadow-slate-600 '>
                 <FontAwesomeIcon icon={faEnvelope} className='md:text-2xl text-lg font-semibold md:p-2'/>
@@ -51,6 +52,7 @@ const Contact = () => {
                      initial={{ opactity: 0.25, x: -200 }}
                      transition={{ duration: 0.5 }}
                      animate={{}}
+                     viewport={{ once:true, amount: 0.5 }}
                      whileInView={{ opactity: 1, x: 0 }}
                     className='flex md:m-3 flex-col shadow-2xl w-[35vw] md:w-[18vw] rounded-xl hover:shadow-slate-600 '>
                 <FontAwesomeIcon icon={faWhatsapp}  className='md:text-2xl text-lg font-semibold md:p-2' />
@@ -68,6 +70,7 @@ const Contact = () => {
                  transition={{ duration: 0.5 }}
                  animate={{}}
                  whileInView={{ opactity: 1, x: 0 }}
+                 viewport={{ once:true, amount: 0.5 }}
                 className='flex md:m-3 flex-col shadow-2xl w-[35vw] md:w-[18vw] rounded-xl hover:shadow-slate-600 '>
                 <FontAwesomeIcon icon={faLinkedin} className='md:text-2xl text-lg font-semibold md:p-2' />
                 <h1 className='md:text-xl font-semibold'>LinkedIn</h1>
@@ -87,6 +90,7 @@ const Contact = () => {
                  transition={{ duration: 0.5 }}
                  animate={{}}
                  whileInView={{ opactity: 1, y: 0 }}
+                 viewport={{ once:true, amount: 0.5 }}
                 
                 ref={form} onSubmit={sendEmail} className='flex flex-col flex-center items-center   mt-5 md:mt-10'> 
                     <label htmlFor="name" className='md:text-xl font-semibold mb-1  '>Name</label>

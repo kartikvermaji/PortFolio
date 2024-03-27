@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="bg-slate-300 h-[100vh] md:pt-16 flex flex-row justify-center items-center w-[100vw] md:p-4 mx-auto text-center">
+    <div className="bg-slate-300 h-[100vh] lg:pt-16 flex flex-row justify-center items-center w-[100vw] md:p-4 mx-auto text-center">
       <div>
 
         <h1 className="text-2xl mt-4 md:text-4xl font-semibold">About Me</h1>
@@ -23,20 +23,22 @@ const About = () => {
  initial={{ opactity: 0, x: -150 }}
  transition={{ duration: 1 }}
  animate={{}}
- whileInView={{ opactity: 1, x: 0 }}>
+ whileInView={{ opactity: 1, x: 0 }}
+ viewport={{ once:true, amount: 0.5 }}>
           <img
             src={profilePic}
             alt=""
-            className="hidden md:block md:h-96 md:w-96 object-cover hover:border-slate-500 shadow-xl rounded-3xl shadow-slate-600"
+            className="hidden lg:block md:h-96 md:w-96 object-cover hover:border-slate-500 shadow-xl rounded-3xl shadow-slate-600"
           /></motion.div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col items-center">
 
-            <motion.div className="flex justify-around flex-wrap space-y-2"
+            <motion.div className="flex justify-around md:w-[70vw] lg:w-[40vw] flex-wrap space-y-2"
              initial={{ opactity: 0., y: 100 }}
              transition={{ duration: 1 }}
              animate={{}}
-             whileInView={{ opactity: 1, y: 0 }}>
+             whileInView={{ opactity: 1, y: 0 }}
+             viewport={{ once:true, amount: 0.5 }}>
 
                         <div className="flex flex-col p-2 md:p-4 shadow-2xl rounded-xl border-slate-700 hover:shadow-2xl hover:shadow-slate-700 hover:bg-slate-800 hover:text-slate-50">
                         <FontAwesomeIcon icon={faGraduationCap} className=" text-lg md:text-2xl" />
@@ -61,8 +63,9 @@ const About = () => {
 <motion.div initial={{ opactity: 0, y: 100 }}
              transition={{ duration: 1 }}
              animate={{}}
-             whileInView={{ opactity: 1, y: 0 }}>
-           <div className="w-[90vw] md:w-[40vw] md:mt-12  md:text-lg">
+             whileInView={{ opactity: 1, y: 0 }}
+             viewport={{ once:true, amount: 0.5 }}>
+           <div className="w-[90vw] lg:w-[40vw] md:mt-12  md:text-lg">
             <p>
               I'm a skilled web developer with expertise in frontend and backend
               technologies, dedicated to leveraging the latest advancements to

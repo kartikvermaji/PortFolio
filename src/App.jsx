@@ -21,9 +21,10 @@ export default function App() {
     </section>
      
    <section id="about" className="h-[100vh]"><About/></section>
-   <section id="skills" className="h-[100vh]"><Skills/> </section>
+   <section id="portfolio" ><PortFolio/> </section>
+   <section id="skills" ><Skills/> </section>
    <section id="experience" className="h-[100vh]"><Experience/> </section>
-   <section id="portfolio" className="h-[100vh]"><PortFolio/> </section>
+   
    <section id="contact" className="h-[100vh]"><Contact/> </section>
    <Footer/>
    

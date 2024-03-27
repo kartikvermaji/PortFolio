@@ -61,6 +61,7 @@ const Experience = () => {
             setAim(true);
             setInfo(Education);
           }}
+          viewport={{ once:true, amount: 0.5 }}
           className="bg-slate-700 text-slate-50 px-5 py-2 rounded-lg shadow-xl shadow-slate-600 hover:bg-slate-400 hover:text-slate-800"
         >
           <FontAwesomeIcon icon={faUserGraduate} className="" /> Education
@@ -74,6 +75,7 @@ const Experience = () => {
             setAim(false);
             setInfo(experience);
           }}
+          viewport={{ once:true, amount: 0.5 }}
           className="bg-slate-700 text-slate-50 px-5 py-2 rounded-lg shadow-xl shadow-slate-600 hover:bg-slate-400 hover:text-slate-800"
         >
           <FontAwesomeIcon icon={faUserTie} /> Experience
@@ -85,6 +87,7 @@ const Experience = () => {
        transition={{ duration: 0.5 }}
        animate={{}}
        whileInView={{ opactity: 1, y: 0 }}
+       viewport={{ once:true, amount: 0.5 }}
        className=" flex flex-col md:flex-row justify-around md:w-[70vw] w-[100vw] space-x-2 space-y-2 my-12 flex-wrap">
         {info.map((item, i) => (
           <div className="flex flex-col bg-slate-200 text-center shadow-2xl rounded-xl p-3 md:p-8 hover:shadow-xl hover:shadow-slate-700  ">
