@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import {
   faUserGraduate,
   faUserTie,
@@ -6,6 +6,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
+import * as React from 'react';
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineDot from '@mui/lab/TimelineDot';
+
 
 const Experience = () => {
   const [aim, setAim] = useState(true);
@@ -41,11 +49,21 @@ const Experience = () => {
       location: "Innova DTU",
       tenure: "2022-Present",
     },
+    {
+      title: "Web Dev Intern",
+      location: "Lensroom",
+      tenure: "2024-Present",
+    },
+    {
+      title: "Web Dev Intern",
+      location: "GDA",
+      tenure: "2024-Present",
+    }
   ];
   const [info, setInfo] = useState(Education);
 
   return (
-    <div className="flex flex-col items-center pt-5 md:pt-20 p-4 bg-slate-300 h-[100vh]">
+    <div className="flex flex-col items-center pt-5 md:pt-20 p-4 bg-slate-300 h-auto">
       <h1 className="text-2xl md:text-4xl font-semibold p-4 md:p-6">
         Qualifications
       </h1>
@@ -88,18 +106,24 @@ const Experience = () => {
        animate={{}}
        whileInView={{ opactity: 1, y: 0 }}
        viewport={{ once:true, amount: 0.5 }}
-       className=" flex flex-col md:flex-row justify-around md:w-[70vw] w-[100vw] space-x-2 space-y-2 my-12 flex-wrap">
+       className=" flex flex-col  justify-around md:w-[100vw] w-[100vw] space-x-2  my-12 flex-wrap">
         {info.map((item, i) => (
-          <div className="flex flex-col bg-slate-200 text-center shadow-2xl rounded-xl p-3 md:p-8 hover:shadow-xl hover:shadow-slate-700  ">
-            <h1 className="md:text-3xl md:p-4 font-semibold">{item.title}</h1>
-            <h1 className="md:text-lg md:p-2 text-slate-500">
-              {item.location}
-            </h1>
-            <h1 className="md:text-lg md:p-2">
-              <FontAwesomeIcon icon={faCalendarDays} /> {item.tenure}
-            </h1>
-            <h1 className="md:p-2 md:text-xl">{item.remark}</h1>
-          </div>
+         
+         <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot variant="outlined" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <div>
+              <h1>{item.title}</h1>
+              <p>{item.location}</p>
+              <p>{item.tenure}</p>
+            </div>
+           </TimelineContent>
+        </TimelineItem>
+          
+         
         ))}
       </motion.div>
 

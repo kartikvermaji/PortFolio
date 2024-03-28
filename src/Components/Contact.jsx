@@ -22,7 +22,7 @@ const Contact = () => {
         });
     };
   return (
-    <div className='bg-slate-300 h-[110vh] w-[100vw] md:p-10 flex flex-col container mx-auto items-center'>
+    <div className='bg-slate-300 lg:h-[110vh] h-auto] w-[100vw] md:p-10 flex flex-col container mx-auto items-center'>
       <h1 className='md:pt-2 text-2xl md:text-4xl font-semibold p-2 md:p-4'>Contact Me</h1>
       <p className='md:text-xl text-slate-500'>Get in touch</p>
       <div className='flex flex-col p-4 md:mt-5 space-x-4 md:space-x-16 md:flex-row '>
@@ -41,7 +41,7 @@ const Contact = () => {
                  className='flex md:m-3 flex-col shadow-2xl w-[35vw] md:w-[18vw] rounded-xl hover:shadow-slate-600 '>
                 <FontAwesomeIcon icon={faEnvelope} className='md:text-2xl text-lg font-semibold md:p-2'/>
                 <h1 className='md:text-xl font-semibold'>Email</h1>
-                <p className='hidden md:block'>kartikvermaji03@gmail.com</p>
+                <p className='hidden lg:block'>kartikvermaji03@gmail.com</p>
                 <a href="mailto:kartikvermaji03@gmail.com" className='md:p-2 md:text-lg hover:space-x-4 space-x-1 flex justify-center '>
                 <p>Write me</p>
                 <FontAwesomeIcon icon={faArrowRight} className=' my-1 duration-200' /></a>

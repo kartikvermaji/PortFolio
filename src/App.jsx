@@ -7,6 +7,7 @@ import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import PortFolio from "./Components/PortFolio.jsx";
 import Skills from "./Components/Skills.jsx";
+import Time from "./Components/Time.jsx"
 
 export default function App() {
   return (
@@ -23,9 +24,10 @@ export default function App() {
    <section id="about" className="h-[100vh]"><About/></section>
    <section id="portfolio" ><PortFolio/> </section>
    <section id="skills" ><Skills/> </section>
-   <section id="experience" className="h-[100vh]"><Experience/> </section>
+   <section id="experience"><Time/></section>
    
-   <section id="contact" className="h-[100vh]"><Contact/> </section>
+   
+   <section id="contact" ><Contact/> </section>
    <Footer/>
    
    </div>
