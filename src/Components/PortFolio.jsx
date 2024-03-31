@@ -27,14 +27,14 @@ const PortFolio = () => {
   const [work2,serWork2]=useState([{
     picturePath:GDA,
     title:"GDA",
-    link:"https://gda-plum.vercel.app/",
+    link:"https://garg-defence-and-aerospace.vercel.app/",
     desc:"Garg Defence and Aerospace pvt limited",
     
   },{
     picturePath:Lensroom,
     title:"Lensroom",
-    link:"https://lightroom-silk.vercel.app/",
-    desc:"Lesnsroom",
+    link:"https://lensroom.vercel.app/",
+    desc:"Lensroom",
   }])
 
   

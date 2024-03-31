@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="md:flex justify-around w-[100vw] md:w-[85vw] lg:w-[70vw] mt-20 md:mt-32 items-center mx-auto ">
+    <div className="md:flex justify-around w-[100vw] md:w-[85vw] lg:w-[70vw] mt-20 md:mt-32 items-center mx-auto  ">
       
 <div className="flex space-x-6"><motion.div
         className="flex flex-col space-y-2 md:space-y-10"

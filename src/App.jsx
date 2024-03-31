@@ -8,12 +8,12 @@ import Navbar from "./Components/Navbar";
 import PortFolio from "./Components/PortFolio.jsx";
 import Skills from "./Components/Skills.jsx";
 import Time from "./Components/Time.jsx"
+import Certificates from "./Components/Certificates.jsx"
 
 export default function App() {
   return (
     <div className=" text-slate-700">
         <Cursor/>
-
    <section id="home"
    className="h-[100vh] ">
      <div className=" relative p-4"><Navbar/>
@@ -25,6 +25,8 @@ export default function App() {
    <section id="portfolio" ><PortFolio/> </section>
    <section id="skills" ><Skills/> </section>
    <section id="experience"><Time/></section>
+   <section id="certificates"><Certificates/> </section>
+   
    
    
    <section id="contact" ><Contact/> </section>
