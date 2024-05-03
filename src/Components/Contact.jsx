@@ -97,7 +97,7 @@ const Contact = () => {
                     <input type="text" placeholder=' Your Name' name='name' className='bg-slate-100 text-slate-900 text-center md:py-2 w-[90vw] md:w-[25vw] rounded-lg md:rounded-xl hover:bg-slate-200 duration-300 text-xl hover:shadow-xl'/>
                     
                     <label htmlFor="name" className=' mt-4 md:text-xl font-semibold mb-1 '>Email</label>
-                    <input type="text" placeholder=' Your Email' name='email'className='bg-slate-100 text-slate-900 text-center  md:py-2 w-[90vw] md:w-[25vw] rounded-lg md:rounded-xll hover:bg-slate-200 duration-300 text-xl hover:shadow-xl ' />
+                    <input type="text" placeholder=' Your Email' name='email' className='bg-slate-100 text-slate-900 text-center  md:py-2 w-[90vw] md:w-[25vw] rounded-lg md:rounded-xll hover:bg-slate-200 duration-300 text-xl hover:shadow-xl ' />
                     
                     <label htmlFor="name" className=' mt-4 md:text-xl font-semibold mb-1 '>Thoughts</label>
                     <textarea  placeholder='Your Thoughts.' name="message" cols="30" rows="3" className='bg-slate-100 text-slate-900 text-center  md:py-2 w-[90vw] md:w-[25vw] rounded-lg md:rounded-xl hover:bg-slate-200 duration-300 text-xl hover:shadow-xl'></textarea>
