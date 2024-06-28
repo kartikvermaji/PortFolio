@@ -48,13 +48,13 @@ const About = () => {
                         <div className="flex flex-col p-2 md:p-4 shadow-2xl rounded-xl border-slate-700 hover:shadow-2xl hover:shadow-slate-700 hover:bg-slate-800 hover:text-slate-50 ">
                         <FontAwesomeIcon icon={faCircleUser}className=" text-lg md:text-2xl" />
                         <h1 className=" mt-1 font-semibold">Experience</h1>
-                        <p>2+ years</p>
+                        <p>2+ Internships</p>
                         </div>
                         
                         <div className="flex flex-col p-2 md:p-4 shadow-xl rounded-xl border-slate-700 hover:shadow-2xl hover:shadow-slate-700  hover:bg-slate-800 hover:text-slate-50 ">
                         <FontAwesomeIcon icon={faSheetPlastic}className=" text-lg md:text-2xl" />
                         <h1 className=" mt-1 font-semibold">Projects</h1>
-                        <p>worked on 10+ projects</p>
+                        <p>4+ projects</p>
                         </div>
 
                        
@@ -67,12 +67,7 @@ const About = () => {
              viewport={{ once:true, amount: 0.5 }}>
            <div className="w-[90vw] lg:w-[40vw] md:mt-12  md:text-lg">
             <p>
-              I'm a skilled web developer with expertise in frontend and backend
-              technologies, dedicated to leveraging the latest advancements to
-              craft immersive digital experiences. I excel in leadership,
-              fostering collaboration, and driving results. Adaptable and
-              solution-oriented, I thrive in dynamic environments, committed to
-              delivering impactful solutions.
+            Second-year Computer Science Engineering student at DTU with strong web development skills in MERN stack and proficiency in C++, DSA, OOP, DBMS, and OS. Interned at Lensroom, Dabotics India, and Garg Defence and Aerospace Pvt Ltd. Completed 4+ projects and served as a campus ambassador for Krayonnz.  
             </p>
            <div className=" mt-2 md:mt-8"><a download="" href={CV} className= " bg-slate-800 text-slate-50 py-2 px-4 md:px-6 ,md:text-xl rounded-xl md:py-3  hover:text-slate-700 hover:bg-slate-300 hover:shadow-2xl hover:shadow-slate-900">
             Download CV <FontAwesomeIcon icon={faFile} />

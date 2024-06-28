@@ -52,12 +52,12 @@ const Experience = () => {
     {
       title: "Web Dev Intern",
       location: "Lensroom",
-      tenure: "2024-Present",
+      tenure: "1/2024-3/2024",
     },
     {
       title: "Web Dev Intern",
-      location: "GDA",
-      tenure: "2024-Present",
+      location: "Dabotics",
+      tenure: "4/2024-5/2024",
     }
   ];
   const [info, setInfo] = useState(Education);
@@ -109,12 +109,12 @@ const Experience = () => {
        className=" flex flex-col  justify-around md:w-[100vw] w-[100vw] space-x-2  my-12 flex-wrap">
         {info.map((item, i) => (
          
-         <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
             <div>
               <h1>{item.title}</h1>
               <p>{item.location}</p>
