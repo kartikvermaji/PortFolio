@@ -20,7 +20,7 @@ const PortFolio = () => {
   },{
     picturePath:market,
     title:"Market",
-    link:"https://github.com/kartikvermaji/Market",
+    link:"https://github.com/kartikvermaji/Ecommerce",
     desc:"Ecommerce App"
   }])
 

@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/KartikVermaResume.pdf";
 import {} from "@fortawesome/free-brands-svg-icons";
 import {
   faGraduationCap,
@@ -67,7 +67,7 @@ const About = () => {
              viewport={{ once:true, amount: 0.5 }}>
            <div className="w-[90vw] lg:w-[40vw] md:mt-12  md:text-lg">
             <p>
-            Second-year Computer Science Engineering student at DTU with strong web development skills in MERN stack and proficiency in C++, DSA, OOP, DBMS, and OS. Interned at Lensroom, Dabotics India, and Garg Defence and Aerospace Pvt Ltd. Completed 4+ projects and served as a campus ambassador for Krayonnz.  
+            Third-year Computer Science Engineering student at DTU with strong web development skills in MERN stack and proficiency in C++, DSA, OOP, DBMS, and OS. Interned at Lensroom, Dabotics India, and Garg Defence and Aerospace Pvt Ltd. Completed 4+ projects and served as a campus ambassador for Krayonnz.  
             </p>
            <div className=" mt-2 md:mt-8"><a download="" href={CV} className= " bg-slate-800 text-slate-50 py-2 px-4 md:px-6 ,md:text-xl rounded-xl md:py-3  hover:text-slate-700 hover:bg-slate-300 hover:shadow-2xl hover:shadow-slate-900">
             Download CV <FontAwesomeIcon icon={faFile} />
