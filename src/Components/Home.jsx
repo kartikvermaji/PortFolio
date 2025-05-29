@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import profilePic from "../assets/profile (2).jpg"
+import profilePic from "../assets/profile (2).png"
 import { motion } from "framer-motion";
 
 const Home = () => {
