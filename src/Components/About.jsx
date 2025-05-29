@@ -43,7 +43,7 @@ const About = () => {
                         <div className="flex flex-col p-2 md:p-4 shadow-2xl rounded-xl border-slate-700 hover:shadow-2xl hover:shadow-slate-700 hover:bg-slate-800 hover:text-slate-50">
                         <FontAwesomeIcon icon={faGraduationCap} className=" text-lg md:text-2xl" />
                         <h1 className=" mt-1 font-semibold">Student</h1>
-                        <p>4rth sem DTU</p>
+                        <p>Final Year DTU</p>
                         </div>
                         <div className="flex flex-col p-2 md:p-4 shadow-2xl rounded-xl border-slate-700 hover:shadow-2xl hover:shadow-slate-700 hover:bg-slate-800 hover:text-slate-50 ">
                         <FontAwesomeIcon icon={faCircleUser}className=" text-lg md:text-2xl" />
